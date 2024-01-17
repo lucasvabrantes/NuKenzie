@@ -1,0 +1,11 @@
+.formBox{
+    padding: 30px;
+    background-color: white;
+    border:1px solid var(--grey-2) ;
+}
+
+.input {
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    height: 52px;
+}

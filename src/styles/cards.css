@@ -1,0 +1,59 @@
+ul{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+
+}
+li{
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    background-color: var(--grey-1);
+    padding: 8px 14px;
+    gap: 20px;
+    
+}
+
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-typeOfvalue{
+    font-size: 0.75rem;
+}
+
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-amount{
+    font-size: 0.75rem;
+    color: var(--grey-4);
+}
+
+.card-green {
+    border-left: solid var(--green-1) 4px; 
+}
+
+.card-white {
+    border-left: solid var(--grey-2) 4px
+}
+
+@media (min-width: 850px){
+    li{
+        flex-direction: row;
+        justify-content: space-between;
+        height: 87px;
+    }
+
+    .rightSide{
+        gap:10px;
+        align-self: center;
+
+    }
+}
